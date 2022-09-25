@@ -1,0 +1,37 @@
+.info {
+    position: relative;
+    width: 480px;
+    margin: auto;
+}
+
+.info__model {
+   width: 480px;
+}
+.info__model img {
+    max-width: 100%;
+}
+.info__glasses {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-49%);
+}
+
+.info__glasses img {
+    max-width: 100%;
+}
+.info__desc {
+    position: absolute;
+    bottom: 0;
+    background-color: #fdb73766;
+    padding: 1rem;
+}
+.info__desc h4 {
+    color: blue;
+}
+.info__desc p {
+    margin-bottom: 0;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
